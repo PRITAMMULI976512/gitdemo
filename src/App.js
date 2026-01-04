@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Signup from './component/Signup';
+import Login from './component/Login';
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
     <h1>Welcome to Git Demo Application - from Priatm branch</h1>
 
     <Signup />
+
+    <br /> <hr /> <hr />
+    <Login />
  </div>
   );
 }
