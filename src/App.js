@@ -6,12 +6,10 @@ import Login from './component/Login';
 function App() {
   return ( 
  <div>
-    <h1>Welcome to Git Demo Application - from Priatm branch</h1>
-
     <Signup />
 
-    <br /> <hr /> <hr />
-    <Login />
+    {/* <br /> <hr /> <hr /> */}
+    {/* <Login /> */}
  </div>
   );
 }
